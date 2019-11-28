@@ -338,7 +338,7 @@ main article figure > img {
   font-weight: 200;
 }
 .inline {
-  display: inline;
+  display: inline-block;
 }
 .hash-separator::after {
   content: "###";
@@ -499,6 +499,20 @@ font-weight: 500;
   font-weight: 500;
   margin-bottom: 8px;
 }
+.label {
+  border-radius: 8px;
+  padding: 4px 6px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  line-height: 1;
+  font-size: 12px;
+  display: inline-block;
+}
+.label.label-results {
+  margin: 0 0 0 8px;
+  position: relative;
+  top: -4px;
+}
 .client-list {
   list-style: none;
   max-width: 860px;
@@ -508,7 +522,14 @@ font-weight: 500;
   margin: 8px 32px 32px;
   display: inline-block;
 }
-.email-client-image {
+.client-list-small {
+  list-style: none;
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+.client-list-small-item {
+  margin: 4px 4px;
+  display: inline-block;
 }
 
 
