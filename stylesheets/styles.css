@@ -516,6 +516,11 @@ font-weight: 500;
   position: relative;
   top: -4px;
 }
+.label.label-changelog {
+  margin: 0 0 0 4px;
+  position: relative;
+  top: -4px;
+}
 .client-list {
   list-style: none;
   max-width: 860px;
