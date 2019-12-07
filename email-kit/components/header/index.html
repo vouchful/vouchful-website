@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Guidelines - Email Kit by Vouchful</title> 
+    <title>Header - Email Kit by Vouchful</title> 
     <meta content="Email Kit is a flexible design system of guidelines, elements, components, templates and content packs that allow you to create amazing responsive emails fast." name="description">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500|Zilla+Slab:500,600&display=swap" rel="stylesheet">
@@ -78,11 +78,11 @@
           <div class="col-md-8 col-md-push-3">
             <article>
               <div class="b-b-gray m-b-8">
-                <span class="title text-green">Guidelines</span>
-                <h2 class="m-t-8 m-b-2">List of Guidelines</h2>
+                <span class="title text-green">Components</span>
+                <h2 class="m-t-8 m-b-2">Header</h2>
                 <div class="row m-t-4">
                   <div class="col-md-9">
-                    <p class="o-60">Work smarter with guidelines.</p> 
+                    <p class="o-60">Headers are used to show common branding elements.</p> 
                   </div>
                   <div class="col-md-3 text-right">
                     <div class="addthis_inline_share_toolbox_5yu1"></div>
@@ -94,34 +94,86 @@
   <img alt="Paul Sylling" src="/images/author-paul.jpg" class="author-avatar">
   <div class="article-author-info">
     by <strong class="m-r-4">Paul Sylling</strong> <a href="https://twitter.com/paulsylling" class="text-sm" target="_blank" target="_blank"><strong>Follow</strong></a>
-    <div class="text-sm o-60">Updated November 24, 2019</div>
+    <div class="text-sm o-60">Updated December 7, 2019</div>
   </div>
 </div> 
               </div>
               <div class="hash-separator m-b-32 m-t-32"></div>
               <section>
-  <p>Click one of the guideline pages below.</p>
+  <h4>Usage</h4>
+  <p>Headers are the anchor at the top of every email and generally made up of two sections.</p>
   <ul>
-    <li>
-      <a href="/email-kit/guidelines/goals">Goals</a>
-    </li>
-    <li>
-      <a href="/email-kit/guidelines/principles">Principles</a>
-    </li>
-    <li>
-      <a href="/email-kit/guidelines/layouts">Layouts</a>
-    </li>
-    <li>
-      <a href="/email-kit/guidelines/spacing">Spacing</a>
-    </li>
-    <li>
-      <a href="/email-kit/guidelines/typography">Typography</a>
-    </li>
-    <li>
-      <a href="/email-kit/guidelines/color">Color</a>
-    </li>
-  </ul>     
+    <li><strong>Branding</strong>: This is a mandatory section that includes a branding element.</li>
+    <li><strong>Links</strong>: An optional section that can include links or social media icons.</li>
+  </ul>
+  <p>Common branding elements include a logo or similar image. Learn about adding <a href="/email-kit/elements/image">images</a> in Email Kit.</p>
 </section>
+<div class="line-separator"></div>
+<section>
+  <h4>Examples</h4>
+  <p>Copy the code below and paste it into a table within the <span class="inline-language-markup">#email-container</span> or <span class="inline-language-markup">.panel-container</span> to create a header in your email.</p>
+  <p>When adding a header component to your email, note the special <span class="inline-language-markup">#header</span> id tag. This takes care of the horiztonal spacing for you. You only need to choose which size of vertical <a href="/email-kit/guidelines/spacing">spacing</a> to surround your header with in order to maintain a consistent vertical rhythm.</p>
+</section>
+<section>
+  <h5><i class="fab fa-github"></i> Header Left-Aligned</h5>
+  <p>Use the code below to create a default header with the logo element left-aligned.</p>
+  <script src="https://gist.github.com/vouchful/af3c2ca6c8632e6759d0e5a1110e0e12.js"></script>
+  <small>Set the align attribute on the td to left.</small>
+</section>
+<section>
+  <h5><i class="fab fa-github"></i> Header Centered</h5>
+  <p>Use the code below to create a default header with the logo element centered.</p>
+  <script src="https://gist.github.com/vouchful/3ee7b1afa8adfd81b8012f5d3f96acfa.js"></script>
+  <small>Set the align attribute on the td to center.</small>
+</section>
+<section>
+  <h5><i class="fab fa-github"></i> Header Inside Panel</h5>
+  <p>Use the code below to create a header inside of the email panel.</p>
+  <script src="https://gist.github.com/vouchful/10e76df5550e470606cba4be5c7083e6.js"></script>
+  <small>Headers have horizontal spacing built into the component but are surrounded by vertical spacers.</small>
+</section>
+<section>
+  <h5><i class="fab fa-github"></i> Header Outside Panel</h5>
+  <p>Use the code below to create a header outside of the email panel.</p>
+  <script src="https://gist.github.com/vouchful/c72dc81a5fd078aca9d8cf3f38dec46b.js"></script>
+  <small>Headers have horizontal spacing built into the component but are surrounded by vertical spacers.</small>
+</section>
+<div class="line-separator"></div>
+<section>
+  <h4>Best Practices</h4>
+  <p>
+    Follow these best practices when using headers.
+  </p>
+  <ul>
+    <li>Always place the header as the top-most component in your email.</li>
+    <li>Use common branding elements that are found on your other web and digital properties.</li>
+    <li>Use a common header among all of your emails</li>
+  </ul>
+</section>
+<div class="line-separator"></div>
+<section>
+  <h4>Frequently Asked Questions</h4>
+  <p>Answers to common questions about headers in Email Kit.</p>
+  <div>
+    <strong>Should I center or left-justify my logo?</strong>
+    <p>
+      Left-justified logos are more easily scanned and provide a better anchor point for the email. If you are including a hero section below the header which is centered, then it is appropriate to consider centering the logo as well.
+    </p>
+  </div>
+  <div>
+    <strong>What is the correct size for my logo?</strong>
+    <p>
+      Our research showed that logos across various industries averaged between 40 and 60 pixels in height.
+    </p>
+  </div>
+  <div>
+    <strong>Is it better to put my logo inside or outside of the email container?</strong>
+    <p>
+      There is no right or wrong answer here. Keep in mind that if you put your logo outside of the email container, it should have a transparent background because it will placed on top of the email background color.
+    </p>
+  </div>
+</section>
+
             </article>        
           </div>
           <div class="col-md-3 col-md-pull-8">
@@ -177,7 +229,7 @@
 <div class="category-header o-60">Components</div>
 <ul class="category-items">
   <li>
-    <a href="/email-kit/components/header" class="">Header</a>
+    <a href="/email-kit/components/header" class="active">Header</a>
   </li>
 </ul>
 <div class="category-header o-60">Templates</div>
