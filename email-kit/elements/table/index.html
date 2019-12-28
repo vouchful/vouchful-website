@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Principles - Email Kit by Vouchful</title> 
+    <title>Table - Email Kit by Vouchful</title> 
     <meta content="Email Kit is a flexible design system of guidelines, elements, components, templates and content packs that allow you to create amazing responsive emails fast." name="description">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500|Zilla+Slab:500,600&display=swap" rel="stylesheet">
@@ -78,11 +78,11 @@
           <div class="col-md-8 col-md-push-3">
             <article>
               <div class="b-b-gray m-b-8">
-                <span class="title text-green">Guidelines</span>
-                <h2 class="m-t-8 m-b-2">Principles</h2>
+                <span class="title text-green">Elements</span>
+                <h2 class="m-t-8 m-b-2">Table</h2>
                 <div class="row m-t-4">
                   <div class="col-md-9">
-                    <p class="o-60">Email Kit is guided by timeless methods.</p> 
+                    <p class="o-60">Tables are used to show content in columns and rows.</p> 
                   </div>
                   <div class="col-md-3 text-right">
                     <div class="addthis_inline_share_toolbox_5yu1"></div>
@@ -94,34 +94,130 @@
   <img alt="Paul Sylling" src="/images/author-paul.jpg" class="author-avatar">
   <div class="article-author-info">
     by <strong class="m-r-4">Paul Sylling</strong> <a href="https://twitter.com/paulsylling" class="text-sm" target="_blank" target="_blank"><strong>Follow</strong></a>
-    <div class="text-sm o-60">Updated November 23, 2019</div>
+    <div class="text-sm o-60">Updated December 28, 2019</div>
   </div>
 </div> 
               </div>
               <div class="hash-separator m-b-32 m-t-32"></div>
               <section>
-  <h4>Beauty</h4>
-  <p>Email Kit was designed to be beautiful by default. As email continues to be the best way to reach your audience, a focus on design and aesthetics not only strengthens your brand but can lead to higher engagement.</p>         
+  <h4 class="inline">Test Results</h4> <span class="label label-results bg-green text-white">Passing</span>
+  <p><a href="https://app.emailonacid.com/app/acidtest/AL3ihATMdBMRdUNG2X9ZJPQUAvsXhZck4dabFDB3kzHAg/list">View the test results</a> to see how tables look across each of the major email clients.</p>
+  <ul class="client-list-small">
+  <li class="client-list-small-item">
+    <img alt="iOS Mail" src="/images/client-icon-ios.png" width="24" class="email-client-image">
+  </li>
+  <li class="client-list-small-item">
+    <img alt="Apple Mail" src="/images/client-icon-applemail.png" width="24" class="email-client-image">
+  </li>
+  <li class="client-list-small-item">
+    <img alt="Gmail" src="/images/client-icon-gmail.png" width="24" class="email-client-image">
+  </li>
+  <li class="client-list-small-item">
+    <img alt="G Suite" src="/images/client-icon-gsuite.png" width="24" class="email-client-image">
+  </li>
+  <li class="client-list-small-item">
+    <img alt="Outlook" src="/images/client-icon-outlook.png" width="24" class="email-client-image">
+  </li>
+  <li class="client-list-small-item">
+    <img alt="Outlook.com" src="/images/client-icon-outlookcom.png" width="24" class="email-client-image">
+  </li>
+  <li class="client-list-small-item">
+    <img alt="Outlook for Mac" src="/images/client-icon-outlookmac.png" width="24" class="email-client-image">
+  </li>
+  <li class="client-list-small-item">
+    <img alt="Outlook 2007" src="/images/client-icon-outlook2007.png" width="24" class="email-client-image">
+  </li>
+  <li class="client-list-small-item">
+    <img alt="Outlook 2003" src="/images/client-icon-outlook2003.png" width="24" class="email-client-image">
+  </li>
+  <li class="client-list-small-item">
+    <img alt="Thunderbird" src="/images/client-icon-thunderbird.png" width="24" class="email-client-image">
+  </li>
+  <li class="client-list-small-item">
+    <img alt="AOL" src="/images/client-icon-aol.png" width="24" class="email-client-image">
+  </li>
+  <li class="client-list-small-item">
+    <img alt="Yahoo Mail" src="/images/client-icon-yahoo.png" width="24" class="email-client-image">
+  </li>
+</ul>
+<small>Email Kit is tested on the most popular email clients.</small>
 </section>
 <div class="line-separator"></div>
 <section>
-  <h4>Consistency</h4>
-  <p>Email Kit applies common solutions to each problem. After analyzing hundreds of email, patterns were created that allows designers and developers to speak the same language.</p>             
+  <h4>Usage</h4>
+  <p>Tables are used to lay out information. When using a table for either layout or tabular data purposes, they are composed of the following:</p>
+  <ul>
+    <li>Headers</li>
+    <li>Columns</li>
+    <li>Rows</li>
+    <li>Gutters</li>
+  </ul>
+  <p>Use a table for layout when you want to structure the content of your email and use a table for tabular data when you have a series of columns and rows of information for the reader to comprehend.</p>
+</section>
+<section>
+  <h5>For Layout</h5>
+  <p>Although divs are used for layout in web development, tables are still the only universally supported method in email development for creating compatible layouts, making them the defacto solution in Email Kit.</p>
+  <p>Email Kit comes with many built-in <a href="/email-kit/guidelines/layouts">layouts</a>:</p>
+  <ul>
+    <li>Two Column</li>
+    <li>Three Column</li>
+    <li>Aside</li>
+    <li>Responsive</li>
+  </ul>
+  <p>Custom layouts can be easily created by adjusted the columns widths. Visit the Examples section below.</p>
+</section>
+<section>
+  <h5>For Tabular Data</h5>
+  <p>When displaying a table as information, use the <span class="inline-language-css">.table</span> class as this will automatically add row borders to make it easier for people to read and comprehend.</p>
+  <p>Numbers and dates should be right-aligned and everything else left-aligned.</p>
+</section>
+<section>
+  <h5>Responsive</h5>
+  <p>
+    Making a layout mobile-friendly requires simply adding the <span class="inline-language-css">.col-responsive</span> class to each column and the <span class="inline-language-css">.col-responsive-gutter</span> class to each gutter. This will allow columns to stack when the screen size is under 600px wide.
+  </p>
+  <p>For more information on responsive layouts and tables, visit the <a href="/email-kit/guidelines/layouts">layout guidelines</a> page.</p>
 </section>
 <div class="line-separator"></div>
 <section>
-  <h4>Efficiency</h4>
-  <p>Email Kit puts designer and developer productivity first. Since emails created with Email Kit are beautiful, responsive and compatible across clients by default, you can simply focus on crafting the perfect message.</p>  
+  <h4>Example</h4>
+  <p>Copy the code below and paste it into a table within the <span class="inline-language-css">.panel-body</span> to create a table in your email.</p>
+</section>
+<section>
+  <h5><i class="fab fa-github"></i> Default Table</h5>
+  <p>Use the code below to create a default table.</p>
+  <script src="https://gist.github.com/vouchful/f512c765a100995bd92e06de45fe32fe.js"></script>
+  <small>Customize the table by changing the column widths.</small>
 </section>
 <div class="line-separator"></div>
 <section>
-  <h4>Flexibility</h4>  
-  <p>Email Kit was built with modularity in mind. By creating a design system based on elements, components and templates, you can easily mix and match to meet your needs knowing your email will look beautiful in your users’ inbox.</p>           
+  <h4>Best Practices</h4>
+  <p>
+    Follow these best practices when using tables.
+  </p>
+  <ul>
+    <li>Tables are your best friend. Use them.</li>
+    <li>Tables should fill the entire width of the email.</li>
+    <li>When using a table for layout purposes, add <span class="inline-language-markup">role=presentation</span> to the <span class="inline-language-markup">table</span> tag.</li>
+    <li>When using a table for tabular data, use the <span class="inline-language-css">.table</span> class on the <span class="inline-language-markup">table</span> tag.</li>
+  </ul>
 </section>
 <div class="line-separator"></div>
 <section>
-  <h4>Simplicity</h4>     
-  <p>Email Kit contains only what is necessary. Every design decision, element, component and template that is included has been carefully planned based on industry research and email best practices.</p>                
+  <h4>Frequently Asked Questions</h4>
+  <p>Answers to common questions about tables in Email Kit.</p>
+  <div>
+    <strong>What size should I make my table when planning out my content?</strong>
+    <p>
+      If you are using the Email Kit defaults a 600 pixel email with a border and 32 pixel gutter spacers, then you have 534 pixels of horizontal space to work with. This means all of your content and spacer columns inside the table should equal 534 pixels.
+    </p>
+  </div>
+  <div>
+    <strong>Can I nest tables?</strong>
+    <p>
+      Absolutely. Email Kit even nests tables to create the initial layout containers as well as other components.
+    </p>
+  </div>
 </section>
             </article>        
           </div>
@@ -142,7 +238,7 @@
     <a href="/email-kit/guidelines/goals" class="">Goals</a>
   </li>
   <li>
-    <a href="/email-kit/guidelines/principles" class="active">Principles</a>
+    <a href="/email-kit/guidelines/principles" class="">Principles</a>
   </li>
   <li>
     <a href="/email-kit/guidelines/layouts" class="">Layouts</a>
@@ -175,7 +271,7 @@
     <a href="/email-kit/elements/link" class="">Link</a>
   </li>
   <li>
-    <a href="/email-kit/elements/table" class="">Table</a>
+    <a href="/email-kit/elements/table" class="active">Table</a>
   </li>
   <li>
     <a href="/email-kit/elements/text" class="">Text</a>
