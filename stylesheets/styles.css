@@ -228,6 +228,8 @@ main article figure > img {
 }
 h5 > .fa-github {
   font-size: 20px;
+  margin-right: 4px;
+  color: #6f42c1;
 }
 
 /** Backgrounds **/
