@@ -94,7 +94,7 @@
   <img alt="Paul Sylling" src="/images/author-paul.jpg" class="author-avatar">
   <div class="article-author-info">
     by <strong class="m-r-4">Paul Sylling</strong> <a href="https://twitter.com/paulsylling" class="text-sm" target="_blank" target="_blank"><strong>Follow</strong></a>
-    <div class="text-sm o-60">Updated November 23, 2019</div>
+    <div class="text-sm o-60">Updated January 6, 2020</div>
   </div>
 </div> 
               </div>
@@ -256,8 +256,16 @@
     classes set on your columns.
   </p>  
    <p>
-    Making a layout mobile-friendly requires simply adding the <span class="inline-language-css">.col-responsive</span> class to each column and the <span class="inline-language-css">.col-responsive-gutter</span> class to each gutter. This will allow columns to stack when the screen size is under 600px wide.
+    Making a layout mobile-friendly requires the following:
   </p> 
+  <ul>
+    <li>Add a <span class="inline-language-css">.column-responsive</span> class to each content column.</li>
+    <li>Add a <span class="inline-language-css">.column-responsive-gutter</span> class to each gutter column.</li>
+    <li>Add an additional <span class="inline-language-css">.column-responsive-last</span> class to the last content column.</li>
+  </ul>
+  <p>
+    This will allow columns to stack when the screen size is under 600px wide.
+  </p>
   <script src="https://gist.github.com/vouchful/50995b414fe3615d2d225d1c2fcac865.js"></script>
   <small>An example two-column responsive layout in Email Kit.</small>
 </section>
