@@ -897,6 +897,11 @@ list-style-type: disc;
     display: block;
     float: unset;
   }
+
+  .button-docs, .button-sketch {
+    display: block;
+    margin: 16px 24px 16px;
+  }
 }
 
 
